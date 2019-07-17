@@ -1,5 +1,5 @@
 # data-wrangler
-A java helper api for developers working with unstructured data mining
+A java helper module for developers working with unstructured data mining
 
 Data wrangler provides a data processor for developers to parse and format multiple data patterns.
 
