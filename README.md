@@ -20,3 +20,9 @@ Check out Test class for example code.
         wrangler.process("Aug  4 08:03:52 host0001 LOG 2018-08-04 02:03:52;\"Application\";\"INFO\";\"next-gen\";\"host0001\";8347;\"next-gen\";\"-\";\"-\";\"-\";\"The service is alive.\"");
         System.out.println(wrangler.toJson());
 ```
+
+
+Output -
+```json
+{"date":"Aug  4 08:03:52","Hostname":"host0001","EventID":8347,"EventTime":"2018-Aug-04 02:03:52","Message":"The service is alive.\""}
+```
